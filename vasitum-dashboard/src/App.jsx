@@ -19,14 +19,34 @@ const App = () => {
               title="Available Position" 
               value="24" 
               subText="Urgently needed" 
-              className="pink-box" 
+              color="pink" 
             />
-            <DashboardCard  title="Job Open" value="10" subText="4 Active hiring"/>
-            <DashboardCard title="New Employees" value="24" subText="4 Department" />
+            <DashboardCard  
+              title="Job Open" 
+              value="10" 
+              subText="4 Active hiring" 
+              color="blue" 
+            />
+            <DashboardCard  
+              title="New Employees" 
+              value="24" 
+              subText="4 Department" 
+              color="green" 
+            />
           </div>
           <div className="statistics">
-            <DashboardCard title="Total Employees" value="216" subText="120 Men, 96 Women" />
-            <DashboardCard title="Talent Request" value="16" subText="6 Men, 10 Women" />
+            <DashboardCard 
+              title="Total Employees" 
+              value="216" 
+              subText="120 Men, 96 Women" 
+              color="purple" 
+            />
+            <DashboardCard 
+              title="Talent Request" 
+              value="16" 
+              subText="6 Men, 10 Women" 
+              color="orange" 
+            />
           </div>
           <Announcement />
           <div className="side-panels">

@@ -19,4 +19,32 @@
     color: #888;
     font-size: 0.9rem;
   }
+
+  &.red {
+    background-color: lightcoral;
+  }
+
+  &.green {
+    background-color: lightpink;
+  }
+
+  &.blue {
+    background-color: #2196f3;
+  }
+
+  &.yellow {
+    background-color: #ffeb3b;
+  }
+
+  &.purple {
+    background-color: #9c27b0;
+  }
+
+  &.orange {
+    background-color: #ff9800;
+  }
+
+  &.pink {
+    background-color: #f06292;
+  }
 }
