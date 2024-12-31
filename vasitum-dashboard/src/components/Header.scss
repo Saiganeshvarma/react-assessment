@@ -2,28 +2,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e5e9f2;
 
   input {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 1px solid #e5e9f2;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.875rem;
+    width: 250px;
+
+    &::placeholder {
+      color: #8c98a4;
+    }
   }
 
   .profile {
     display: flex;
     align-items: center;
-    gap: 10px;
 
     span {
-      font-weight: bold;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #0b1e48;
+      margin-right: 12px;
     }
 
     img {
       width: 40px;
       height: 40px;
       border-radius: 50%;
+      object-fit: cover;
     }
   }
 }

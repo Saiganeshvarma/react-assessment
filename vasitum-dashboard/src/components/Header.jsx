@@ -7,7 +7,10 @@ const Header = () => {
       <input type="text" placeholder="Search" />
       <div className="profile">
         <span>Admirra John</span>
-        <img src="https://via.placeholder.com/40" alt="profile" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+          alt="profile"
+        />
       </div>
     </div>
   );

@@ -15,8 +15,13 @@ const App = () => {
         <Header />
         <div className="dashboard">
           <div className="dashboard-cards">
-            <DashboardCard title="Available Position" value="24" subText="Urgently needed" />
-            <DashboardCard title="Job Open" value="10" subText="4 Active hiring" />
+            <DashboardCard  
+              title="Available Position" 
+              value="24" 
+              subText="Urgently needed" 
+              className="pink-box" 
+            />
+            <DashboardCard  title="Job Open" value="10" subText="4 Active hiring"/>
             <DashboardCard title="New Employees" value="24" subText="4 Department" />
           </div>
           <div className="statistics">

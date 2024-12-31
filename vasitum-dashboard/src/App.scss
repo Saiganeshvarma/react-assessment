@@ -1,5 +1,6 @@
 .app {
   display: flex;
+  width: auto;
 
   .main {
     flex: 1;
@@ -8,11 +9,27 @@
     .dashboard {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 30px;
 
-      .dashboard-cards, .statistics {
+
+
+
+
+      .dashboard-cards{
         display: flex;
         gap: 20px;
+        width: 55%;
+
+
+
+
+
+      }
+      .statistics {
+        display: flex;
+        gap: 20px;
+        width: 55%;
+
       }
 
       .side-panels {
